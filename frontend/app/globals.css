@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+html{
+    scroll-behavior: smooth;
+}
+
+@layer components{
+    .text-gradient {
+        @apply bg-gradient-to-r from-purple-600  to-blue-500 bg-clip-text text-transparent
+    }
+
+    .button-gradient {
+        @apply bg-gradient-to-r from-purple-600  to-blue-500 text-white
+    }
+}
+
+
